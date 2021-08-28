@@ -33,10 +33,11 @@
   border-radius: 0px 0px 4px 4px;
 }
 
-.team-section__card:first-child {
-  margin-left: 0;
+.team-section__card {
+  &:first-child {
+    margin-left: 0;
+  }
 }
-
 .member {
   text-align: center;
   padding-top: 30px;
@@ -93,12 +94,15 @@
   transition: background-color 250ms $timing-function, fill 250ms $timing-function;
 }
 
-.social__link:last-child {
-  margin-right: 0px;
+.social__link {
+  &:last-child {
+    margin-right: 0px;
+  }
 }
-
-.social__link:focus,
-.social__link:hover {
-  background-color: $accent-text-color;
-  fill: $background-color;
+.social__link {
+  &:focus,
+  &:hover {
+    background-color: $accent-text-color;
+    fill: $background-color;
+  }
 }

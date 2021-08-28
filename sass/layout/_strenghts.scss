@@ -32,10 +32,11 @@
   max-width: 270px;
 }
 
-.strenghts-section__item:first-child {
-  margin-left: 0;
+.strenghts-section__item {
+  &:first-child {
+    margin-left: 0;
+  }
 }
-
 .strengths-section__title {
   margin-bottom: 10px;
   font-weight: 700;

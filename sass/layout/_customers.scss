@@ -41,17 +41,19 @@
   -webkit-transition: background-color 250ms $timing-function, fill 250ms $timing-function;
   transition: background-color 250ms $timing-function, fill 250ms $timing-function;
 }
-.customers__link:hover {
-  fill: $accent-text-color;
-  border-color: $accent-text-color;
+.customers__link {
+  &:hover {
+    fill: $accent-text-color;
+    border-color: $accent-text-color;
+  }
 }
-
-.customers__link:focus {
-  fill: $accent-text-color;
-  color: $accent-text-color;
-  border-color: $accent-text-color;
+.customers__link {
+  &:focus {
+    fill: $accent-text-color;
+    color: $accent-text-color;
+    border-color: $accent-text-color;
+  }
 }
-
 .customers__icon {
   display: block;
   width: 106px;
