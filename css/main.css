@@ -8,7 +8,7 @@
 :root {
   --primary-text-color: #212121;
   --secondary-text-colort: #757575;
-  --accent-text-color: orange;
+  --accent-text-color: #2196f3;
   --background-color: #ffffff;
   --background-color-secondary: #2f303a;
   --background-color-tertiary: #f5f4fa;
@@ -505,7 +505,7 @@ textarea {
 .social__link:focus,
 .social__link:hover {
   background-color: var(--accent-text-color);
-  fill: white;
+  fill: var(--background-color);
 }
 
 /* loyal customers */
