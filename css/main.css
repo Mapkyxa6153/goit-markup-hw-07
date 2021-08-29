@@ -884,7 +884,7 @@ textarea {
 }
 
 .footer-form__label {
-  color: #ffffff;
+  color: transparent;
   font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -904,7 +904,7 @@ textarea {
   padding-bottom: 15px;
   border-color: rgba(255, 255, 255, 0.3);
   border-radius: 4px;
-  background-color: #2f303a;
+  background-color: transparent;
   color: #ffffff;
 }
 
