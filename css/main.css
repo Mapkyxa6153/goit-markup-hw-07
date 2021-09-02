@@ -124,8 +124,6 @@ textarea {
   top: 45px;
 }
 
-.site-nav__link--current::after,
-.site-nav__link:hover::after,
 .site-nav__link::after {
   content: '';
   position: absolute;
