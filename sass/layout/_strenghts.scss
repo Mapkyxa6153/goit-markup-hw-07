@@ -1,6 +1,8 @@
 /* strengths */
 .strenghts {
-  .visually-hidden {
+  margin-top: 0;
+
+  &.visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -9,7 +11,6 @@
     border: 0;
     clip: rect(0 0 0 0);
   }
-  margin-top: 0;
 }
 
 .strenghts-section {
@@ -62,11 +63,4 @@
     width: 70px;
     height: 70px;
   }
-}
-.strenghts-section__text {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: $secondary-text-colort;
 }

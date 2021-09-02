@@ -3,6 +3,18 @@
 .services-section {
   padding: 94px 0;
 
+  &__description {
+    position: absolute;
+    right: 82px;
+    left: 83px;
+    bottom: 27px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
   &__title {
     margin-bottom: 50px;
     font-weight: 700;
@@ -20,18 +32,6 @@
     -ms-flex-pack: justify;
     justify-content: space-between;
   }
-  // &__description {
-  //   position: absolute;
-  //   right: 82px;
-  //   left: 83px;
-  //   bottom: 27px;
-  //   font-weight: 700;
-  //   font-size: 14px;
-  //   line-height: 16px;
-  //   letter-spacing: 0.03em;
-  //   text-transform: uppercase;
-  //   color: #ffffff;
-  // }
 
   &__item {
     position: relative;
@@ -52,17 +52,4 @@
     max-width: 100%;
     height: auto;
   }
-}
-
-.service-section__description {
-  position: absolute;
-  right: 82px;
-  left: 83px;
-  bottom: 27px;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #ffffff;
 }
