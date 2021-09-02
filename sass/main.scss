@@ -22,3 +22,9 @@
 
 // FORMS
 @import './utils/forms';
+
+body {
+  color: $primary-text-color;
+  background-color: $background-color;
+  font-family: Roboto, sans-serif;
+}

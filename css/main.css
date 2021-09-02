@@ -109,13 +109,14 @@ textarea {
   color: #2196f3;
 }
 
-.site-nav__link:hover::after,
-.site-nav__link--current::after {
-  opacity: 1;
+.site-nav__link::after {
+  opacity: 0;
+  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.site-nav__link--current {
-  color: #2196f3;
+.site-nav__link:hover::after, .site-nav__link.site-nav__link--current::after {
+  opacity: 1;
 }
 
 .site-nav__link::after {
@@ -133,12 +134,6 @@ textarea {
   background-color: #2196f3;
   display: block;
   border-radius: 2px;
-}
-
-.site-nav__link::after {
-  opacity: 0;
-  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* HEADER contacts */
